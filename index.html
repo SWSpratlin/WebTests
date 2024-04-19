@@ -12,20 +12,16 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
+
 <style>
   @import url("https://use.typekit.net/bah0ezi.css");
   @import url("https://use.typekit.net/kek6dar.css");
 
   .bgImage {
     background-color: transparent;
+    transition-duration: .5s;
+    transition-delay: 100ms;
   }
 
   img {
@@ -76,18 +72,17 @@
   .splashButton:hover {
     transition-delay: 50ms;
     transition-duration: .5s;
-    color:#FCF7E7;
-    box-shadow: 0 2.5vh 0 0 #261F1E inset, 0 -2.5vh 0 0  #261F1E inset;
+    color: #FCF7E7;
+    box-shadow: 0 2.5vh 0 0 #261F1E inset, 0 -2.5vh 0 0 #261F1E inset;
   }
 
   .logo {
     background-color: transparent;
     margin-left: 2vw;
-
   }
 
   .banner {
-    background-color: #FCF7E7;
+    background-color: #e7dcd8;
     width: 100%;
     height: 30%;
     position: absolute;
@@ -100,11 +95,17 @@
 <img class="bgImage" src="img/Technics_Web_2000x.png" height="100%" alt="bg">
 <div class="banner"></div>
 <h1 class="logoText">SPRATLIN &emsp; <img class="logo" src="img/Logo.png" width="7.5%" alt="logo"> STUDIOS</h1>
-<button class="splashButton" style="left: 20%;">SOUND</button>
-<button class="splashButton" style="left: 44%">INTERACTIVE</button>
-<button class="splashButton" style="left: 68%">EDUCATION</button>
 
+<a href="#">
+  <button class="splashButton" style="left: 20%;">SOUND</button>
+</a>
 
+<a href="#">
+  <button class="splashButton" style="left: 44%">INTERACTIVE</button>
+</a>
+
+<a href="#">
+  <button class="splashButton" style="left: 68%">EDUCATION</button>
+</a>
 </body>
-
 </html>
